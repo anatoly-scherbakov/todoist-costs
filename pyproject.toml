@@ -1,0 +1,45 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+name = "todoist-costs"
+description = "Use Todoist for financial planning."
+version = "0.1.0"
+license = "MIT"
+
+authors = []
+
+readme = "README.md"
+
+repository = "https://github.com/anatoly-scherbakov/todoist-costs"
+
+keywords = []
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.942"
+
+wemake-python-styleguide = "^0.16"
+flake8-pytest-style = "^1.6"
+
+safety = "^1.10"
+
+pytest = "^7.1"
+pytest-cov = "^3.0"
+pytest-randomly = "^3.11"
+
+flakehell = "^0.9.0"
+
+[tool.flakehell]
+base = "https://raw.githubusercontent.com/Recall-Masters/standards/main/pyproject.toml"
