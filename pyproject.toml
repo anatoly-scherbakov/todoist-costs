@@ -2,6 +2,8 @@
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.poetry.scripts]
+todoist-costs = "todoist_costs:cli"
 
 [tool.poetry]
 name = "todoist-costs"
@@ -25,7 +27,15 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.7,<4.0"
+python = ">=3.8,<4.0"
+rich = "^12.0.1"
+typer = "^0.4.0"
+todoist-api-python = "^1.1.1"
+click = "<8.1.0"
+urlpath = "^1.2.0"
+pendulum = "^2.1.2"
+CurrencyConverter = "^0.16.10"
+money = "^1.3.0"
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.942"

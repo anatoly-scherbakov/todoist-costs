@@ -26,7 +26,7 @@ pip install todoist-costs
 Showcase how your project can be used:
 
 ```python
-from todoist_costs.example import some_function
+from todoist_costs.cli import some_function
 
 print(some_function(3, 4))
 # => 7

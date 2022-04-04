@@ -1,6 +1,6 @@
 import pytest
 
-from todoist_costs.example import some_function
+from todoist_costs.cli import some_function
 
 
 @pytest.mark.parametrize(('first', 'second', 'expected'), [
