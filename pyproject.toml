@@ -47,7 +47,7 @@ safety = "^1.10"
 
 pytest = "^7.1"
 pytest-cov = "^3.0"
-pytest-randomly = "^3.11"
+pytest-randomly = "^3.12"
 
 flakehell = "^0.9.0"
 
