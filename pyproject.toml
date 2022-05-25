@@ -28,7 +28,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
-rich = "^12.4.3"
+rich = "^12.4.4"
 typer = "^0.4.1"
 todoist-api-python = "^1.1.1"
 click = "<8.2.0"
