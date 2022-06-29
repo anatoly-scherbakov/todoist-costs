@@ -112,7 +112,7 @@ toml = ["tomli"]
 
 [[package]]
 name = "currencyconverter"
-version = "0.16.11"
+version = "0.16.13"
 description = "A currency converter using the European Central Bank data."
 category = "main"
 optional = false
@@ -908,7 +908,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8,<4.0"
-content-hash = "9c31c1d96dd88b96f9893e172c7d72c559f4ad32c9702ba047d72f2a599af327"
+content-hash = "0d946c6070aaf6fd95536f1412605910d115a62350f66971cfc8039c39e85dbf"
 
 [metadata.files]
 astor = [
@@ -991,8 +991,8 @@ coverage = [
     {file = "coverage-6.4.1.tar.gz", hash = "sha256:4321f075095a096e70aff1d002030ee612b65a205a0a0f5b815280d5dc58100c"},
 ]
 currencyconverter = [
-    {file = "CurrencyConverter-0.16.11-py2.py3-none-any.whl", hash = "sha256:8e255aca69701ccf195ebb51346b1cfcab16f24c384490e436edd731f4d666e7"},
-    {file = "CurrencyConverter-0.16.11.tar.gz", hash = "sha256:4a9d1a01887ca5ff3dc46069d9234f9f53bdbbb1a483ef72e1ea76d52f09cd97"},
+    {file = "CurrencyConverter-0.16.13-py2.py3-none-any.whl", hash = "sha256:5a2a4541f69920b8b7943f8adfe2180c19f03dcc81e71aba7f6e9bb8c036fb7f"},
+    {file = "CurrencyConverter-0.16.13.tar.gz", hash = "sha256:d413871a2539bdaad695d9b61eeb5201afa9ddd8ad0d8e5b1cb44adc8d19d028"},
 ]
 darglint = [
     {file = "darglint-1.8.1-py3-none-any.whl", hash = "sha256:5ae11c259c17b0701618a20c3da343a3eb98b3bc4b5a83d31cdd94f5ebdced8d"},
