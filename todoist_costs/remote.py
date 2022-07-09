@@ -6,6 +6,7 @@ import pendulum
 import requests
 from urlpath import URL
 
+from todoist_costs.errors import MissingDueTime
 from todoist_costs.models import LabelSet, FinancialTask, TaskType
 
 
@@ -56,7 +57,14 @@ def retrieve_tasks(token: str, labels: LabelSet) -> Iterable[FinancialTask]:
             labels.cost in task['label_ids']
         ) else TaskType.INCOME
 
-        due = task['due']
+        try:
+            due = task['due']
+        except KeyError:
+            raise MissingDueTime(
+                task_name=task['content'],
+                task_url=task['url'],
+            )
+
         raw_task_time = due.get('datetime') or due.get('date')
         task_time = pendulum.parse(raw_task_time)
 
