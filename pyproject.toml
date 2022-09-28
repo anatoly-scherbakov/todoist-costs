@@ -41,7 +41,7 @@ documented = "^0.1.1"
 [tool.poetry.dev-dependencies]
 mypy = "^0.971"
 
-wemake-python-styleguide = "^0.16"
+wemake-python-styleguide = "^0.17"
 flake8-pytest-style = "^1.6"
 
 safety = "^2.2"
