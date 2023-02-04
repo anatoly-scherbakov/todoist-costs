@@ -25,8 +25,8 @@ def print_report(tasks: Iterable[FinancialTask]):
         'Date',
         'Task',
         'Raw amount',
-        'Amount (EUR)',
-        'Balance (EUR)',
+        'Amount ($)',
+        'Balance ($)',
     )
 
     for task in tasks:

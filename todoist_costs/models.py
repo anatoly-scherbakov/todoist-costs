@@ -35,6 +35,6 @@ class FinancialTask:
     @property
     def standardized_amount(self) -> float:
         if self.currency == 'AMD':
-            return self.amount / 540.0
+            return self.amount / 400.0
 
         return CurrencyConverter().convert(self.amount, currency=self.currency)
