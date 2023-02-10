@@ -42,7 +42,7 @@ documented = "^0.1.1"
 mypy = "^1.0"
 
 wemake-python-styleguide = "^0.17"
-flake8-pytest-style = "^1.6"
+flake8-pytest-style = "^1.7"
 
 safety = "^2.3"
 
