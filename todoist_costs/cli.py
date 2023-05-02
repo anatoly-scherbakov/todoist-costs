@@ -1,7 +1,7 @@
 import datetime
 import itertools
 import operator
-from typing import List
+from typing import List, Optional
 
 from typer import Typer, Option, Argument
 
@@ -17,6 +17,7 @@ app = Typer()
 @app.command()
 def report(
     token: str = Option(default=..., envvar='TODOIST_TOKEN'),
+    days: Optional[int] = Option(default=None, help='Number of days to plan ahead for.'),
     balance: List[str] = Argument(...),
 ):
     """Financial report based on planned income and costs."""
@@ -42,6 +43,13 @@ def report(
     )
 
     tasks = calculate(tasks)
+
+    if days is not None:
+        last_date = datetime.date.today() + datetime.timedelta(days=days)
+        tasks = filter(
+            lambda task: task.time is None or task.time.date() <= last_date,
+            tasks,
+        )
 
     print_report(tasks)
 
