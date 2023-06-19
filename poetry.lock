@@ -240,13 +240,13 @@ toml = ["tomli"]
 
 [[package]]
 name = "currencyconverter"
-version = "0.17.7"
+version = "0.17.8"
 description = "A currency converter using the European Central Bank data."
 optional = false
 python-versions = ">=3.6.1"
 files = [
-    {file = "CurrencyConverter-0.17.7-py3-none-any.whl", hash = "sha256:8e123099bf2146f02ef93c17794c4cbd51cff9f56786fb5d94e31672787b4e3d"},
-    {file = "CurrencyConverter-0.17.7.tar.gz", hash = "sha256:3fd3b80da6d995528a2181a76d0ce4cf521fd7244dedc6382cb183a6113546e0"},
+    {file = "CurrencyConverter-0.17.8-py3-none-any.whl", hash = "sha256:a0a8428024c5afad39664272b642ff7f25f59c26da59486cc683a7e8a1589a50"},
+    {file = "CurrencyConverter-0.17.8.tar.gz", hash = "sha256:f65142676d7fca5cb76956fbc89d3cfe673355b444ff6de52c3d497bc4d20c1c"},
 ]
 
 [[package]]
@@ -1437,4 +1437,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<4.0"
-content-hash = "af173f4a6d88a17901b706d5073228cbfb8dea2d67375356db58239d47fa6438"
+content-hash = "eb10a4b67aebd9bc8b76d89ac9d3cc98fc6145e2dd3ebe2c3ac9b0f6430e7979"
