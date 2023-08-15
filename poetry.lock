@@ -1281,17 +1281,16 @@ pbr = ">=2.0.0,<2.1.0 || >2.1.0"
 
 [[package]]
 name = "todoist-api-python"
-version = "2.0.2"
+version = "2.1.2"
 description = "Official Python SDK for the Todoist REST API."
 optional = false
 python-versions = ">=3.9,<4.0"
 files = [
-    {file = "todoist_api_python-2.0.2-py3-none-any.whl", hash = "sha256:af52cbc8f183dff79d22929dbab75e1d840da3e10e0571e8ff84e8fc74d6fcf8"},
-    {file = "todoist_api_python-2.0.2.tar.gz", hash = "sha256:ec8567649e35c244a44608b5e0c125aabf9e567c0f2df55959af39024a856e25"},
+    {file = "todoist_api_python-2.1.2-py3-none-any.whl", hash = "sha256:da49a5e5aebc289592bbe155209509aead87a996aaaf46471265145e20d0e3f7"},
+    {file = "todoist_api_python-2.1.2.tar.gz", hash = "sha256:624d53e03c0b2963f841418e9fbd3784075d6a0f80283f6f364b8dba69589b7c"},
 ]
 
 [package.dependencies]
-attrs = ">=22.0.0,<23.0.0"
 requests = ">=2.26.0,<3.0.0"
 
 [[package]]
@@ -1432,4 +1431,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<4.0"
-content-hash = "6c9083402211eafb29f09e9b27e39c91e6c1223a58959cf9ccd7f27ba03f9127"
+content-hash = "7fce25a33a5dd1080f318b2839635c1ebde61daa05d535327dbd65734001255f"
