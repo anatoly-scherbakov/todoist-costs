@@ -37,6 +37,9 @@ class FinancialTask:
         if self.currency == 'AMD':
             return self.amount / 383.0
 
+        if self.currency == 'MDL':
+            return self.amount / 17.1
+
         return CurrencyConverter().convert(
             self.amount,
             currency=self.currency,
