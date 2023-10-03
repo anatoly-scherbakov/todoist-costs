@@ -262,13 +262,13 @@ files = [
 
 [[package]]
 name = "documented"
-version = "0.1.3"
+version = "0.1.4"
 description = "Templated docstrings for Python classes."
 optional = false
 python-versions = ">=3.8.1,<4.0"
 files = [
-    {file = "documented-0.1.3-py3-none-any.whl", hash = "sha256:3bdcb8d68b0b82d0d52927767704c1a7bb1defa6722cee0eb157dfee1a1945b0"},
-    {file = "documented-0.1.3.tar.gz", hash = "sha256:4844ef5e84910a8827a6f55661cfa536315da70ab638f907a9e113d7107f137c"},
+    {file = "documented-0.1.4-py3-none-any.whl", hash = "sha256:de3fd47c1f11f01c3237a8857d6dc730809c32b252d5b53e16bccdf6b6bb0894"},
+    {file = "documented-0.1.4.tar.gz", hash = "sha256:f02ff67419b5d2403e6fad6c992fb5d3392673a2825ebb7d93a97f825102d4f2"},
 ]
 
 [[package]]
@@ -1436,4 +1436,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<4.0"
-content-hash = "6ca1f4726b13184f1daaa6ad89d915792c1f7a0a454a171676b66068c086fd08"
+content-hash = "ca543165f9ae83347fedfff66efee4cc2e733827d5bdae19a695d1ff1a55c599"
