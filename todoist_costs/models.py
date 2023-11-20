@@ -33,6 +33,10 @@ class FinancialTask:
     balance: int = 0
 
     @property
+    def is_income(self):
+        return self.amount >= 0
+
+    @property
     def standardized_amount(self) -> float:
         if self.currency == 'AMD':
             return self.amount / 383.0

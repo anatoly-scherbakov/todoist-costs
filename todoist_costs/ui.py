@@ -36,6 +36,7 @@ def print_report(tasks: Iterable[FinancialTask]):
             task.description,
             str(round(task.standardized_amount, 2)),
             format_balance(task.balance),
+            style='green' if task.is_income else None,
         )
 
     Console().print(table)
