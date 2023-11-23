@@ -52,7 +52,7 @@ def parse_description(description: str) -> Tuple[int, str]:
 
 def retrieve_tasks(token: str, labels: LabelSet) -> Iterable[FinancialTask]:
     tasks = TodoistAPI(token).get_tasks(
-        filter='@cost, @income',
+        filter='@cost | @income',
     )
 
     for task in tasks:
