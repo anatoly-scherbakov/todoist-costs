@@ -3,7 +3,7 @@ from dataclasses import dataclass
 from documented import DocumentedError
 
 
-@dataclass(frozen=True)
+@dataclass
 class MissingDueTime(DocumentedError):
     """
     Due date or time missing for a cost-related Todoist task.
