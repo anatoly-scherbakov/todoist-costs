@@ -31,15 +31,18 @@ def report(
     ) for amount, currency in parsed_balance]
 
     label_set = retrieve_label_set(token)
+
+    retrieved_tasks = sorted(
+        retrieve_tasks(
+            token=token,
+            labels=label_set,
+        ),
+        key=operator.attrgetter('time'),
+    )
+
     tasks = itertools.chain(
         balance_tasks,
-        sorted(
-            retrieve_tasks(
-                token=token,
-                labels=label_set,
-            ),
-            key=operator.attrgetter('time'),
-        )
+        retrieved_tasks,
     )
 
     tasks = calculate(tasks)
