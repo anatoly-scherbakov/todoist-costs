@@ -379,13 +379,13 @@ test-randomorder = ["pytest-randomly"]
 
 [[package]]
 name = "currencyconverter"
-version = "0.17.24"
+version = "0.17.25"
 description = "A currency converter using the European Central Bank data."
 optional = false
 python-versions = ">=3.6.1"
 files = [
-    {file = "CurrencyConverter-0.17.24-py3-none-any.whl", hash = "sha256:808b04d9cdc047af19563ec213d265f964344ff51cd031f2c4fd1ebebfc69d15"},
-    {file = "currencyconverter-0.17.24.tar.gz", hash = "sha256:49860987be0a350fcecd6005554f5a99141f3803b14880d5deebc49aa8fdb5b5"},
+    {file = "CurrencyConverter-0.17.25-py3-none-any.whl", hash = "sha256:be8c773c2a4013e1dd546bf6a77d5b5e342164da784c82357c8cdc9e06df5550"},
+    {file = "currencyconverter-0.17.25.tar.gz", hash = "sha256:f1750a3c06e2ec8aaf256b2cc6e01444c9d205192674f94e670956f3934e3168"},
 ]
 
 [[package]]
@@ -1880,4 +1880,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<4.0"
-content-hash = "3142fc668f0eaa72ce9b1bb2b4295c8e9d36571d74c01ac03fddccdd96f53403"
+content-hash = "300035362e018763b7fc39047326b9c562bface4813515037f6551aaedcd1e02"
