@@ -34,7 +34,7 @@ todoist-api-python = "^2.1.5"
 click = "<8.2.0"
 urlpath = "^1.2.0"
 pendulum = "^3.0.0"
-CurrencyConverter = "^0.17.26"
+CurrencyConverter = "^0.17.27"
 money = "^1.3.0"
 documented = "^0.1.4"
 
