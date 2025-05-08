@@ -30,7 +30,7 @@ classifiers = [
 python = ">=3.9,<4.0"
 rich = "^14.0.0"
 typer = "^0.15.3"
-todoist-api-python = "^3.0.1"
+todoist-api-python = "^3.1.0"
 click = "<8.2.0"
 urlpath = "^1.2.0"
 pendulum = "^3.1.0"
