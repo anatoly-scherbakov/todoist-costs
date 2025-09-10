@@ -47,7 +47,7 @@ flake8-pytest-style = "^2.1"
 safety = "^3.6"
 
 pytest = "^8.4"
-pytest-cov = "^6.3"
+pytest-cov = "^7.0"
 pytest-randomly = "^3.16"
 
 flakehell = "^0.9.0"
