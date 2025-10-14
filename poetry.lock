@@ -2380,22 +2380,22 @@ zstd = ["zstandard (>=0.18.0)"]
 
 [[package]]
 name = "urlpath"
-version = "1.2.0"
-description = "Object-oriented URL from `urllib.parse` and `pathlib`"
+version = "2.0.0"
+description = "Object-oriented URL from urllib.parse and pathlib"
 optional = false
-python-versions = "~=3.4"
+python-versions = ">=3.9"
 groups = ["main"]
 files = [
-    {file = "urlpath-1.2.0-py3-none-any.whl", hash = "sha256:9c175c4ce014e1c25bbc20984e75b2d05597cab915c3569b5e457acff2e692ad"},
-    {file = "urlpath-1.2.0.tar.gz", hash = "sha256:e54c0c82db4894a7217772150bdbc01413794576996e7834f81d67f22359c9d0"},
+    {file = "urlpath-2.0.0-py3-none-any.whl", hash = "sha256:f5a337bc3bc9f41793d67d72cc0290925998c29acc2ff8f1692b0c2dba4c3728"},
+    {file = "urlpath-2.0.0.tar.gz", hash = "sha256:321b932709982079e71deddb4af56ffe3447a9596faa895de19cf0cbee23b239"},
 ]
 
 [package.dependencies]
+charset-normalizer = ">=2,<4"
 requests = "*"
 
 [package.extras]
 json = ["jmespath"]
-test = ["WebOb", "jmespath"]
 
 [[package]]
 name = "wemake-python-styleguide"
@@ -2451,4 +2451,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.9,<4.0"
-content-hash = "54a36b20d16376541ca2808e24a98b88d998b0d47fee21d05283012cc64a859d"
+content-hash = "824a62aa5dfa0c643cc825db071e91adde956e0dc5ab56034db0ac487fcb8251"
