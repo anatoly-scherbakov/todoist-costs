@@ -44,7 +44,7 @@ mypy = "^1.18"
 wemake-python-styleguide = "^0.19"
 flake8-pytest-style = "^2.1"
 
-safety = "^3.6"
+safety = "^3.7"
 
 pytest = "^8.4"
 pytest-cov = "^7.0"
