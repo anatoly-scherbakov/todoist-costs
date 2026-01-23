@@ -2300,14 +2300,14 @@ test = ["pytest", "tornado (>=4.5)", "typeguard"]
 
 [[package]]
 name = "todoist-api-python"
-version = "3.2.0"
+version = "3.2.1"
 description = "Official Python SDK for the Todoist API."
 optional = false
 python-versions = "~=3.9"
 groups = ["main"]
 files = [
-    {file = "todoist_api_python-3.2.0-py3-none-any.whl", hash = "sha256:f167bdcb2fb11f8970930ca466a3da92ee8e19a76df31418528c96564683f226"},
-    {file = "todoist_api_python-3.2.0.tar.gz", hash = "sha256:442473921e283a2636a7896c3b2422938e299e3684e2979e5a467e8a239ff41a"},
+    {file = "todoist_api_python-3.2.1-py3-none-any.whl", hash = "sha256:1091e9b557291380abd79245efe961b0f2261c7b4eb16e52beccfc6357320e95"},
+    {file = "todoist_api_python-3.2.1.tar.gz", hash = "sha256:22c60230cc616437846f9a6469dddd97548545ef916d2bea98b2ca2f522d92f9"},
 ]
 
 [package.dependencies]
@@ -2506,4 +2506,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.9,<4.0"
-content-hash = "003204dad0dc67c28d61e720d4a1e16447ab67440786c1358e20910c5fc0228e"
+content-hash = "54b9a125de5f788a234fab4ec418cf59524633ea6fcb06ef11590ff5a4bb9341"
