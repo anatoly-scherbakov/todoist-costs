@@ -2391,14 +2391,14 @@ telegram = ["requests"]
 
 [[package]]
 name = "typer"
-version = "0.21.2"
+version = "0.23.0"
 description = "Typer, build great CLIs. Easy to code. Based on Python type hints."
 optional = false
 python-versions = ">=3.9"
 groups = ["main", "dev"]
 files = [
-    {file = "typer-0.21.2-py3-none-any.whl", hash = "sha256:c3d8de54d00347ef90b82131ca946274f017cffb46683ae3883c360fa958f55c"},
-    {file = "typer-0.21.2.tar.gz", hash = "sha256:1abd95a3b675e17ff61b0838ac637fe9478d446d62ad17fa4bb81ea57cc54028"},
+    {file = "typer-0.23.0-py3-none-any.whl", hash = "sha256:79f4bc262b6c37872091072a3cb7cb6d7d79ee98c0c658b4364bdcde3c42c913"},
+    {file = "typer-0.23.0.tar.gz", hash = "sha256:d8378833e47ada5d3d093fa20c4c63427cc4e27127f6b349a6c359463087d8cc"},
 ]
 
 [package.dependencies]
@@ -2522,4 +2522,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.9,<4.0"
-content-hash = "ec04a1ae61f393a1ed87548bc9f8d78a05fe3f2284ef8f5f09b1c31bd892ba2d"
+content-hash = "417046d54f6d8bfd47bd9b67fa5b65ae5011456ed3d1a2817820320c4197d068"
